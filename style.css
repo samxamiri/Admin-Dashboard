@@ -3,7 +3,11 @@ html {
   height: 100%;
 }
 
-.sidebar {
+.sidebar-span-2-rows {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem 20rem 8rem;
+  gap: 50px;
   size: auto;
 }
 
