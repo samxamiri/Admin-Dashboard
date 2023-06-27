@@ -3,21 +3,48 @@ html {
   height: 100%;
 }
 
+.header {
+  display: grid;
+  grid-template-columns: 1fr 0.75fr;
+  grid-template-rows: 4rem 4rem;
+}
+
+.search-bar {
+  width: 500px;
+  padding: 6px;
+  border: 2px solid #ccc;
+  border-radius: 20px; /* This creates the rounded edges */
+  font-size: 9px;
+}
+
 .sidebar-span-2-rows {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 5rem 20rem 8rem;
+  grid-template-rows: 5rem 10rem 8rem;
   gap: 50px;
-  size: auto;
+}
+
+.functions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .container {
   display: grid;
   grid-template-columns: 0.25fr 1fr;
-  grid-template-rows: 0.3fr 0.9fr;
+  grid-template-rows: 0.25fr 0.75fr;
   height: 100%;
 }
 
 .sidebar-span-2-rows {
   grid-row: span 2;
+}
+
+.main-content {
+  height: 540px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1fr 1fr 0.2fr 1fr;
+  gap: 20px;
+  padding: 20px;
 }
