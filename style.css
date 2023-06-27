@@ -44,7 +44,11 @@ html {
   height: 540px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.2fr 1fr 1fr 0.2fr 1fr;
+  grid-template-rows: 0.2fr 2fr 2fr 2fr;
   gap: 20px;
-  padding: 20px;
+  padding: 30px;
+}
+
+.project-title {
+  margin: 0;
 }
