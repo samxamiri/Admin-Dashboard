@@ -20,8 +20,10 @@ html {
 .sidebar-span-2-rows {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 5rem 10rem 8rem;
+  grid-template-rows: 5rem 12rem 8rem;
   gap: 50px;
+  background-color: #0ea5e9;
+  color: white;
 }
 
 .functions {
@@ -51,4 +53,80 @@ html {
 
 .project-title {
   margin: 0;
+}
+
+.dashboard {
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  gap: 10px;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.messages {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.history {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tasks {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.communities {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.settings {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.support {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.privacy {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon {
+  height: 20px;
+  color: white;
+}
+
+.dashboard-img {
+  height: 50px;
 }
