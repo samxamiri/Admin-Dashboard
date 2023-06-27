@@ -1,0 +1,19 @@
+body,
+html {
+  height: 100%;
+}
+
+.sidebar {
+  size: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 0.25fr 1fr;
+  grid-template-rows: 0.3fr 0.9fr;
+  height: 100%;
+}
+
+.sidebar-span-2-rows {
+  grid-row: span 2;
+}
